@@ -1,0 +1,296 @@
+.video{
+    height: 100vh;
+}
+#homevideo {
+    position: absolute;
+    top: -65px;
+    width: 100%;
+    height: 700px;
+}
+
+#underline {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    border: 1px solid white;
+}
+
+#navbar {
+    background-color: white;
+    height: 50px;
+    width: 1250px;
+}
+
+#the {
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    top: 200px;
+}
+
+#five {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 140px;
+    left: 80px;
+}
+
+#longwheel {
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+
+#price {
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    top: 360px;
+    left: 80px;
+}
+
+#navbarlogo {
+    height: 40px;
+    width: 40px;
+    position:absolute;
+    left: 100px;
+    top: 10px;
+}
+
+#button {
+    /* display: flex; */
+    /* border-color: black; */
+    position: fixed;
+    width: 70px;
+    height: 30px;
+    border-radius: 25%/50%;
+    background-color: aliceblue;
+    top: 20px;
+    right: 20px;
+    flex-shrink: 1;
+}
+
+#circle {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 3px;
+    transition: all 1s ease-in;
+}
+
+/* #circle: {
+    transform: translateX(40px)
+} */
+
+#home {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top:-2px;
+    left: 480px;
+    z-index:1;
+}
+#models {
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    top:-2px;
+    left: 580px;
+    z-index: 1;
+}
+
+#contact1 {
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    top:-2px;
+    right: 460px;
+    z-index: 1;
+}
+
+#bmwm4 {
+    font-size: 50px;
+    /* color: black; */
+    position: absolute;
+    left: 300px;
+    top: 600px;
+}
+
+#iimlogo {
+    position: absolute;
+    top: 590px;
+    left: 100px;
+}
+
+#homephoto {
+    position: absolute;
+    top: 760px;
+    left: 10px;
+}
+photocontent{
+    position:absolute;
+    left:120px;
+    font-size: 50px;
+    color:white;
+    top:550px;
+}
+#logomover {
+    height: 400px;
+    width: 550px;
+    background-color: rgb(223, 172, 230);
+    position: absolute;
+    top: 1462px;
+    left: 10px;
+}
+#driftingcontent{
+    font-size: 40px;
+    position:absolute;
+    top:1590px;
+    left:760px
+}
+#function1 {
+    position: absolute;
+    top: 1870px;
+    right: 10px;
+}
+
+#luxury {
+    font-size: 35px;
+    font-weight: 0px;
+    position:absolute;
+    left: 20px;
+    top: 1900px;
+}
+horizontalline{
+    position: absolute;
+    top: 2280px;
+    left: 0;
+    width:100%;
+    color:#c3c7c4;
+    z-index: 2;
+}
+
+.contactcontainer{
+    width: 1240px;
+    height:600px;
+    background-color:#c3c7c4;
+    position:absolute;
+    top:2400px;
+    display:flex;
+    border: 2px solid #c3c7c4;
+}
+#find{
+    position:absolute;
+    top:-100px;
+    left:30px;
+    font-size: 20px;
+}
+#all{
+    
+    position:absolute;
+    top:-100px;
+    left:250px;
+    font-size: 20px;
+}
+.contentcontainer{
+    /* color:#454645; */
+    font-size: 20px;
+    width: 1240px;
+    height:400px;
+    position:absolute;
+    top:100px;
+    display:flex;
+    flex-direction: row ;
+    justify-content: space-around;
+}
+.upper{
+    color:#454645;
+}
+container1{
+    height:250px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+container2{
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+container3{
+    height:250px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+container4{
+    height:150px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.social-media{
+    position:relative;
+    top:2070px;
+    left:50px;
+}
+horizontalline2{
+    position: absolute;
+    top: 2900px;
+    left: 0;
+    width:100%;
+    color:#c3c7c4;
+    z-index: 2;
+}
+contactus{
+    font-size: 25px;
+    position: absolute;
+    top: 2880px;
+    left: 500px;
+    width:100%;
+    color:rgb(245, 9, 9);
+}
+#website{
+    position:absolute;
+    left:200px;
+}
+#instagram{
+    position:absolute;
+    left:400px;
+}
+#linkedin{
+    position:absolute;
+    left:600px;
+}
+#twitter{
+    position:absolute;
+    left:800px;
+}
+ .universal {
+    background-color:white;
+}
+.change {
+    background-color: black;
+}
+.text{
+    color:black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.text{
+text-decoration: none;
+color:black;
+}
+.anchor1{
+    text-decoration: none;
+    color:white;
+}
