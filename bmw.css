@@ -17,7 +17,6 @@
 }
 
 #navbar {
-    background-color: white;
     height: 50px;
     width: 1250px;
 }
@@ -64,8 +63,6 @@
 }
 
 #button {
-    /* display: flex; */
-    /* border-color: black; */
     position: fixed;
     width: 70px;
     height: 30px;
@@ -82,12 +79,15 @@
     width: 25px;
     position: relative;
     top: 3px;
-    transition: all 1s ease-in;
+    /* transition-delay: 1ms;
+    transition-duration: 1s;
+    transition-timing-function:linear; */
 }
 
-/* #circle: {
+/* #circle:active{
     transform: translateX(40px)
 } */
+
 
 #home {
     color: white;
@@ -117,7 +117,6 @@
 
 #bmwm4 {
     font-size: 50px;
-    /* color: black; */
     position: absolute;
     left: 300px;
     top: 600px;
@@ -200,7 +199,6 @@ horizontalline{
     font-size: 20px;
 }
 .contentcontainer{
-    /* color:#454645; */
     font-size: 20px;
     width: 1240px;
     height:400px;
@@ -239,7 +237,7 @@ container4{
 }
 .social-media{
     position:relative;
-    top:2070px;
+    top:2290px;
     left:50px;
 }
 horizontalline2{
@@ -293,4 +291,15 @@ color:black;
 .anchor1{
     text-decoration: none;
     color:white;
+}
+.oval{
+    transform: translate(20px);
+}
+#Buy_Now {
+    color: white;
+    font-size: 20px;
+    position:absolute;
+    top:-2px;
+    right: 320px;
+    z-index: 1;
 }

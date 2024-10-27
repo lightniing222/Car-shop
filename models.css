@@ -263,7 +263,7 @@ container4{
     transition-duration: 1s;
 }
 .cars:hover{
-    height:280px;
+    transform: scale(1.5);
 }
 html{
     scroll-behavior: smooth;
